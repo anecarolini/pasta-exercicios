@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.font-courier {
+    font-family: 'Courier Prime', monospace;
+}
+
+.navbar {
+    background-color: #262322;
+    color: white;
+    padding: 15px;
+    height: 90px;
+    margin-bottom: 30px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.navbar-item {
+    display: inline-block;
+    height: 100%;
+}
+
+.navbar-item a {
+    color: #ccc;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 18px;
+}
+
+.navabr-item a.active {
+    color: white;
+    font-size: 20px;
+    text-decoration: underline !important;
+}
+
+.navbar-item a.navbar-link-main {
+    font-size: 20px;
+    font-family: 600;
+    color: white;
+    margin-right: 30px;
+}
+
+.navbar-link {
+    padding: 20px;
+}
+
+.navbar-link:hover {
+    color: white;
+    font-size: 20px;
+    text-decoration: underline !important;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex: 1 0 0%;
+}
+
+.div-padding {
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: justify;
+}
